@@ -16,6 +16,8 @@ include screenshots, a GIF, and/or a video showing us that you have the app work
 
 Follow this link to a one-minute video demonstration: (https://drive.google.com/file/d/1dzsNTkvOW_auJXxS_c2A8EFjPf5Yr8lw/view?usp=sharing)
 
+Follow this link to a 1:40 minute video of the manager functionality: (https://drive.google.com/file/d/1yCKGc9fZcv-1ZGf4aSb2cr00ECNgw_Mx/view)
+
 
 
 ### Link to Github Repository

@@ -1,8 +1,8 @@
 var colors = require('colors');
 var Table = require('cli-table');
 const table = new Table({
-    head: ['Item ID', 'Name', 'Price', 'Quantity']
-    , colWidths: [10, 30, 10, 10]
+    head: ['Item ID', 'Name', 'Price']
+    , colWidths: [10, 30, 10]
 });
 var inquirer = require("inquirer");
 var mysql = require("mysql");
@@ -30,7 +30,7 @@ function display() {
         //-----------------------------------------------------------------------
         for (var i = 0; res[i]; i++) {
             table.push(
-                [res[i].item_id, res[i].product_name, '$' + res[i].sale_price, res[i].stock_quantity]
+                [res[i].item_id, res[i].product_name, '$' + res[i].sale_price]
             );
         }
         console.log(table.toString());
